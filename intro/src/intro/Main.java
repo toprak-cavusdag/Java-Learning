@@ -17,10 +17,10 @@ public class Main {
 		
 		int vade = 12;
 		
-		double dolarDun = 18.14;
-		double dolarBugun = 18.10;
+		double dolarDun = 18.20;
+		double dolarBugun = 18.20;
 		
-		boolean dolarDustuMu = false;
+		boolean dolarDustuMu = false; 
 		
 		String okYonu = "";
 		
@@ -31,12 +31,22 @@ public class Main {
 			System.out.println(okYonu);
 		} 
 		
-		else {
+		else if (dolarBugun > dolarDun) {
 			okYonu = "up.svg";
 			System.out.println(okYonu);
-
+		}
+		
+		else {
+			okYonu = "equal.svg";
+			System.out.println(okYonu);
 		}
 		
 		
+		String[] krediler = {"Hızlı Kredi", "Maaşını Halkbanktan alanlar", "Mutlu Emekli"};
+		
+		
+		for (int i = 0; i < krediler.length; i++) {
+			System.out.println(krediler[i]);
+		}
 	}
 }
