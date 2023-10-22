@@ -2,5 +2,9 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.lang.Double"/>
+    <fullyQualifiedTypeName name="oop1.Product"/>
+    <fullyQualifiedTypeName name="oop1.IndividualCustomer"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="oop1.CorporateCustom"/>
+    <fullyQualifiedTypeName name="oop1.Customer"/>
 </qualifiedTypeNameHistroy>
